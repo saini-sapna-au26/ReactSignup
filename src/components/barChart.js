@@ -32,11 +32,11 @@ const BarChart = () => {
   return (
     <div>
       <p style={{ textAling: "center" }}>Bar charts</p>
-      <h1>thid is dashboard</h1>
+      <h1>this is dashboard</h1>
       <h1>Bar Chart HTML</h1>
 
       <div className="BarChart">
-        <h1>GEEKSFORGEEKS BAR CHART REACTJS</h1>
+        <h1> BAR CHART </h1>
         <div style={{ maxWidth: "650px" }}>
           <BarChart
             data={{
