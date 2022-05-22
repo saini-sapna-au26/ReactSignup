@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./css/syle.css";
+import { Link } from "react-router-dom";
 
 class Form extends Component {
   constructor(props) {
@@ -122,9 +123,10 @@ class Form extends Component {
           </select>
           <br /> */}
           {/* <input type="submit" value="create account" /> */}
-          <a href="./components/barChart.js  ">
+          <a href="./components/barChart.j  ">
             <button class="GFG">Click Here</button>
           </a>
+          <Link to="dashborad">About</Link>
         </form>
       </div>
     );
