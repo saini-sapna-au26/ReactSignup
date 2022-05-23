@@ -8,7 +8,7 @@ import BarChart from "./components/barChart";
 function App() {
   return (
     <>
-      <BarChart />
+      {/* <BarChart /> */}
       <div className=" d-flex">
         <div className="img m-5">
           <img src={Img} height={800} width={500} />

@@ -1,43 +1,43 @@
 import React from "react";
-// import { Bar } from "react";
+import { Bar } from "react";
 import { Link } from "react-router-dom";
 
 const BarChart = () => {
-  // const state = {
-  //   labels: ["January", "Feburary", "March", "April", "May"],
-  //   datasets: [
-  //     {
-  //       label: "Rainfall",
-  //       backgroundaColor: "rgba(75, 192, 192, 1)",
-  //       borderColor: "rgba(0, 0, 0, 1)",
-  //       borderWidth: 2,
-  //       data: [65, 45, 123, 42, 43],
-  //     },
-  //   ],
-  // };
+  //   // const state = {
+  //   //   labels: ["January", "Feburary", "March", "April", "May"],
+  //   //   datasets: [
+  //   //     {
+  //   //       label: "Rainfall",
+  //   //       backgroundaColor: "rgba(75, 192, 192, 1)",
+  //   //       borderColor: "rgba(0, 0, 0, 1)",
+  //   //       borderWidth: 2,
+  //   //       data: [65, 45, 123, 42, 43],
+  //   //     },
+  //   //   ],
+  //   // };
 
-  // const options = {
-  //   Plugin: {
-  //     legend: {
-  //       display: true,
-  //       position: "bottom",
-  //     },
-  //     title: {
-  //       text: "Average Rainfall per month",
-  //       display: true,
-  //       frontSize: 20,
-  //     },
-  //   },
-  // };
+  //   // const options = {
+  //   //   Plugin: {
+  //   //     legend: {
+  //   //       display: true,
+  //   //       position: "bottom",
+  //   //     },
+  //   //     title: {
+  //   //       text: "Average Rainfall per month",
+  //   //       display: true,
+  //   //       frontSize: 20,
+  //   //     },
+  //   //   },
+  //   // };
   return (
     <div>
       <p style={{ textAling: "center" }}>Bar charts</p>
       <h1>this is dashboard</h1>
-      <h1>Bar Chart HTML</h1>
-
-      <div className="BarChart">
-        <h1> BAR CHART </h1>
+      <h1>Bar Chart HTML</h1>{" "}
+      {/* <div className="BarChart">
+        <h1> BAR CHART </h1>{" "}
         <div style={{ maxWidth: "650px" }}>
+          {" "}
           <BarChart
             data={{
               // Name of the variables on x-axies for each bar
@@ -76,13 +76,12 @@ const BarChart = () => {
                 },
               },
             }}
-          />
-
-          <Link to="/">
-            <button>Back to Login</button>
-          </Link>
-        </div>
-      </div>
+          />{" "}
+        </div>{" "}
+      </div>{" "} */}
+      <Link to="/dashborad">
+        <button>Back to Login</button>{" "}
+      </Link>{" "}
     </div>
   );
 };
